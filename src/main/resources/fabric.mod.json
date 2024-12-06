@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "This is a tutorial mod by Mega, where I try to do something",
+	"authors": [
+		"Mega_21"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mega.tutorial.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.mega.tutorial.TutorialModDataGenerator"
+		],
+		"client": [
+			"net.mega.tutorial.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
