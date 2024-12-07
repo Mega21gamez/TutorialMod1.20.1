@@ -3,6 +3,7 @@ package net.mega.tutorial;
 import net.fabricmc.api.ModInitializer;
 
 import net.mega.tutorial.block.ModBlocks;
+import net.mega.tutorial.item.ModItemGroups;
 import net.mega.tutorial.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,10 @@ public class TutorialMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		// Load ModItemGroups FIRST
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
