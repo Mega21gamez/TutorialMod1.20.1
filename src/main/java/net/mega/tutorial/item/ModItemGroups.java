@@ -15,7 +15,7 @@ public class ModItemGroups {
             Identifier.of(TutorialMod.MOD_ID, "pink_garnet_items"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModItems.PINK_GARNET))
-                    .displayName(Text.translatable("itemgroup.tutorial-mod.pink_garnet_items"))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_items"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModItems.PINK_GARNET);
                       entries.add(ModItems.RAW_PINK_GARNET);
@@ -25,7 +25,7 @@ public class ModItemGroups {
             Identifier.of(TutorialMod.MOD_ID, "pink_garnet_blocks"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
-                    .displayName(Text.translatable("itemgroup.tutorial-mod.pink_garnet_blocks"))
+                    .displayName(Text.translatable("itemgroup.tutorialmod.pink_garnet_blocks"))
                     .entries((displayContext, entries) -> {
                       entries.add(ModBlocks.PINK_GARNET_BLOCK);
                       entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);

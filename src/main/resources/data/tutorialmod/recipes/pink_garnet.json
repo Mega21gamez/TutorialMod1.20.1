@@ -3,11 +3,11 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "tutorial-mod:pink_garnet_block"
+      "item": "tutorialmod:pink_garnet_block"
     }
   ],
   "result": {
     "count": 9,
-    "item": "tutorial-mod:pink_garnet"
+    "item": "tutorialmod:pink_garnet"
   }
 }

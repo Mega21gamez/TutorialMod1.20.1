@@ -5,7 +5,7 @@
   "experience": 0.2,
   "group": "pink_garnet",
   "ingredient": {
-    "item": "tutorial-mod:raw_pink_garnet"
+    "item": "tutorialmod:raw_pink_garnet"
   },
-  "result": "tutorial-mod:pink_garnet"
+  "result": "tutorialmod:pink_garnet"
 }

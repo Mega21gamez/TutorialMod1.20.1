@@ -13,20 +13,18 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
                         }
-                      ]
-                    }
+                      }
+                    ]
                   }
                 }
               ],
-              "name": "tutorial-mod:pink_garnet_deepslate_ore"
+              "name": "tutorialmod:pink_garnet_deepslate_ore"
             },
             {
               "type": "minecraft:item",
@@ -35,8 +33,8 @@
                   "add": false,
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 5.0,
-                    "min": 2.0
+                    "max": 6.0,
+                    "min": 3.0
                   },
                   "function": "minecraft:set_count"
                 },
@@ -49,7 +47,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tutorial-mod:raw_pink_garnet"
+              "name": "tutorialmod:raw_pink_garnet"
             }
           ]
         }
