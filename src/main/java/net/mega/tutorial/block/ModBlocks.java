@@ -2,6 +2,7 @@ package net.mega.tutorial.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.mega.tutorial.TutorialMod;
+import net.mega.tutorial.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -27,6 +28,9 @@ public class ModBlocks {
     public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
             new ExperienceDroppingBlock(AbstractBlock.Settings.create().strength(4f).requiresTool(),
                     UniformIntProvider.create(3, 6)));
+
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
