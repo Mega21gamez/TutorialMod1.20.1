@@ -14,5 +14,15 @@
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
 
-  "block.tutorialmod.magic_block": "Magic Block"
+  "block.tutorialmod.magic_block": "Magic Block",
+
+
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is very, very §9MAGICAL§r",
+
+  "tooltip.tutorialmod.chisel.shift_down": "This Chisel turns blocks into bricks",
+  "tooltip.tutorialmod.chisel": "Press §eShift§r for more info",
+
+  "tooltip.tutorialmod.cauliflower.tooltip": "This is delicious!",
+  "tooltip.tutorialmod.cauliflower.tooltip.0": "Small chance to give extra health for a short period of time"
 }
